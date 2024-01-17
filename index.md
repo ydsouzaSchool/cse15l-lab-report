@@ -15,8 +15,8 @@ Lab Report 1 - Yohann Andrew DSouza
 3. `ls *a file*` as the argument will return the file name if it exists, and will return an error if not
 ---
 ## cat command
-![Image](/lsCommands.png)
-1. `ls` lists all directories/ files in the home directory
-2. `ls *a directory*` as the argument will list all the directories/ files in the given directory
-3. `ls *a file*` as the argument will return the file name if it exists, and will return an error if not
+![Image](/catCommands.png)
+1. `cat` just takes input from the user on the CLI and returns it in the same manner
+2. `ls *a directory*` as the argument will return an error, since `cat` deals with files, not directories
+3. `ls *a file*` as the argument will return the file information, including any encodings for styles unique to the file format
    
