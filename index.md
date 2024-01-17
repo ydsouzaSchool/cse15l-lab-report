@@ -1,7 +1,7 @@
 Lab Report 1 - Yohann Andrew DSouza
 ---
 ## Task 1
-Using the cd command: 
+> *cd* command: 
 ![Image](/cdCommands.png)
 1. `cd` takes you to the home directory
 2. `cd *a directory*` as the argument will take you inside the directory, provided the file path exists
@@ -9,6 +9,7 @@ Using the cd command:
 4. `cd *..*` as the argument takes you one level higher in the directory tree
    On researching more about the `cd` command, I learnt that it stands for change directory, so the above behaviour is rationalized.
 ---
+> *ls* command: 
 ![Image](/lsCommands.png)
 1. `ls` lists all directories/ files in the home directory
 2. `ls *a directory*` as the argument will list all the directories/ files in the given directory
