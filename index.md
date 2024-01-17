@@ -20,4 +20,4 @@ Lab Report 1 - Yohann Andrew DSouza
 2. `ls *a directory*` as the argument will return an error, since `cat` deals with files, not directories
 3. `ls *a file*` as the argument will return the file information, including any encodings for styles unique to the file format
 
-For any of the above arguments, if an attempt is made to access a particular file/ directory that doesnt exist, regardless of the command, will result in an error.
+For any of the above commands (cd, ls, cat), if an attempt is made to access a particular file/ directory that doesnt exist, regardless of the command, will result in an error.
