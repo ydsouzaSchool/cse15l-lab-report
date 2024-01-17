@@ -17,7 +17,7 @@ Lab Report 1 - Yohann Andrew DSouza
 ## cat command
 ![Image](/catCommands.png)
 1. `cat` just takes input from the user on the CLI and returns it in the same manner
-2. `ls *a directory*` as the argument will return an error, since `cat` deals with files, not directories
-3. `ls *a file*` as the argument will return the file information, including any encodings for styles unique to the file format
+2. `cat *a directory*` as the argument will return an error, since `cat` deals with files, not directories
+3. `cat *a file*` as the argument will return the file information, including any encodings for styles unique to the file format
 
 For any of the above commands (cd, ls, cat), if an attempt is made to access a particular file/ directory that doesnt exist, regardless of the command, will result in an error.
