@@ -1,7 +1,9 @@
 Lab Report 1 - Yohann Andrew DSouza
 ---
+[comment]: <> (Include the working directory at each point, and explain whether or not it is an error)
 ## cd command
 ![Image](/cdCommands.png)
+Working 
 1. `cd` takes you to the home directory
 2. `cd *a directory*` as the argument will take you inside the directory, provided the file path exists
 3. `cd *a file*` as the argument will give you an error since the purpose of cd is to navigate through directories/ folders, not files.
