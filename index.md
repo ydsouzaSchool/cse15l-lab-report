@@ -7,7 +7,7 @@ Lab Report 1 - Yohann Andrew DSouza
 [comment]: <> (Include the working directory at each point, and explain whether or not it is an error)
 ## cd command
 ![Image](/cdCommands.png)
-Working 
+ 
 1. `cd` takes you to the home directory. Working directory at this time was `/Users/yohanndsouza/Downloads`, `cd` took me back to `/Users/yohanndsouza`. No error here, this is the normal expected output.
    
 2. `cd *a directory*` as the argument will take you inside the directory, provided the file path exists. Working directory at this time was /Users/yohanndsouza. `cd downloads` took me to `/Users/yohanndsouza/Downloads`. No error here, this is the normal expected output from this command. `cd *directory that doesn't exist` yields an error though, which is expected, since you cannot enter a directory that doesn't exist.
