@@ -32,8 +32,11 @@ Lab Report 1 - Yohann Andrew DSouza
 
 ## cat command
 ![Image](/catCommands.png)
-1. `cat` just takes input from the user on the CLI and returns it in the same manner
-2. `cat *a directory*` as the argument will return an error, since `cat` deals with files, not directories
-3. `cat *a file*` as the argument will return the file information, including any encodings for styles unique to the file format
+
+1. `cat` just takes standard input from the user on the CLI and returns it in the same manner. It continues until it is terminated using `ctrl+c`, or unless the user enters a valid file. This is the normal expected behaviour for this command. The working directory at this time was `Users/yohanndsouza`. 
+  
+2. `cat *a directory*` as the argument will return an error, since `cat` deals with files, not directories. Working directory was `Users/yohanndsouza`. Running `cat documents` returns an error, because it is a directory, not a file, which is the expected output for this case.
+  
+3. `cat *a file*` as the argument will return the file information, including any encodings for styles unique to the file format. Working directory at this time was `Users/yohanndsouza/Downloads`. Running `cat CSE15Practicefile.rtf` returns the encodings for the content and file information, which is the expected output. It returns an error if the file doesnt exist, which is the normal behaviour.
 
 For any of the above commands (cd, ls, cat), if an attempt is made to access a particular file/ directory that doesnt exist, regardless of the command, will result in an error.
