@@ -1,13 +1,15 @@
 Lab Report 1 - Yohann Andrew DSouza
 ---
+## Please note: the order of the explanation and the order of the commands in the screenshots may differ. Everything is explained with reference to the images though.
+---
 [comment]: <> (Include the working directory at each point, and explain whether or not it is an error)
 ## cd command
 ![Image](/cdCommands.png)
 Working 
-1. `cd` takes you to the home directory
-2. `cd *a directory*` as the argument will take you inside the directory, provided the file path exists
-3. `cd *a file*` as the argument will give you an error since the purpose of cd is to navigate through directories/ folders, not files.
-4. `cd *..*` as the argument takes you one level higher in the directory tree
+1. `cd` takes you to the home directory. Working directory at this time was /Users/yohanndsouza/Downloads, `cd` took me back to /Users/yohanndsouza. No error here, this is the normal expected output.
+2. `cd *a directory*` as the argument will take you inside the directory, provided the file path exists. Working directory at this time was /Users/yohanndsouza. `cd downloads` took me to /Users/yohanndsouza/Downloads. No error here, this is the normal expected output from this command. `cd *directory that doesn't exist` yields an error though, which is expected, since you cannot enter a directory that doesn't exist.
+3. `cd *a file*` as the argument will give you an error since the purpose of cd is to navigate through directories/ folders, not files. Working directory was /Users/yohanndsouza. the `cd` command in this context accomplishes nothing as explained earlier.
+4. `cd *..*` as the argument takes you one level higher in the directory tree. Working directory was /Users/yohanndsouza/downloads. After using `cd ..`, it took as to the directory one level higher, /Users/yohanndsouza. No error here, expected behaviour.
    On researching more about the `cd` command, I learnt that it stands for change directory, so the above behaviour is rationalized.
 ---
 ## ls command
